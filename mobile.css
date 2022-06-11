@@ -1,0 +1,419 @@
+@media (max-width : 925px) {
+
+
+
+
+  .mobileHide {
+    display:none !important;
+  }
+
+}
+
+@media (max-width : 720px) {
+
+
+
+
+
+
+
+  .mobileHide {
+    display:none !important;
+  }
+  .homeModuleTitle {
+  font-size:24px !important;
+  padding-top:20px !important;
+  padding-bottom:20px !important;
+  }
+  .homeModuleTitle1 {
+  font-size:24px !important;
+  padding-top:0px !important;
+  padding-bottom:20px !important;
+  }
+  .homeModuleTitle2 {
+  font-size:24px !important;
+  padding-top:35px !important;
+  padding-bottom:20px !important;
+  }
+  .gallery-cell {
+    width: 100%;
+    height: 0;
+    padding-bottom:49.5%;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  .mobileFullWidth {
+    width:100% !important;
+    max-width:800px !important;
+  }
+
+}
+
+
+@media (max-width : 540px) {
+  .paddingLR0 {
+    padding-left:0px !important;padding-right:0px !important;
+    margin-left:0px !important;margin-right:0px !important;
+  }
+}
+
+/*hide elements on Mobile*/
+
+
+  /*iPhone X in portrait & landscape */
+  @media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3) {
+
+    .mobileHide {
+      display:none !important;
+    }
+
+    .noMargin {
+      margin-left:0px !important;
+      margin-right:0px !important;
+    }
+    .paddingLeft0{
+      padding-left:0px !important;
+    }
+    .mobileCenter{
+      text-align:center !important;
+    }
+
+
+  }
+
+
+  /* iPhone 6, 7, & 8 in portrait & landscape */
+  @media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 667px) {
+
+    .mobileHide {
+      display:none !important;
+    }
+
+    .noMargin {
+      margin-left:0px !important;
+      margin-right:0px !important;
+    }
+    .paddingLeft0{
+      padding-left:0px !important;
+    }
+    .mobileCenter{
+      text-align:center !important;
+    }
+
+  }
+
+  /* iPhone 6, 7, & 8 Plus in portrait & landscape */
+  @media only screen
+  and (min-device-width : 414px)
+  and (max-device-width : 736px) {
+
+    .mobileHide {
+      display:none !important;
+    }
+
+    .noMargin {
+      margin-left:0px !important;
+      margin-right:0px !important;
+    }
+    .paddingLeft0{
+      padding-left:0px !important;
+    }
+    .mobileCenter{
+      text-align:center !important;
+    }
+
+
+  }
+
+  /* iPhone 5 & 5S in portrait & landscape */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px) {
+
+    .mobileHide {
+      display:none !important;
+    }
+
+    .noMargin {
+      margin-left:0px !important;
+      margin-right:0px !important;
+    }
+    .paddingLeft0{
+      padding-left:0px !important;
+    }
+    .mobileCenter{
+      text-align:center !important;
+    }
+
+  }
+
+  /* Galaxy S4 portrait and landscape */
+  @media screen
+    and (device-width: 320px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3) {
+
+      .mobileHide {
+        display:none !important;
+      }
+
+      .noMargin {
+        margin-left:0px !important;
+        margin-right:0px !important;
+      }
+      .paddingLeft0{
+        padding-left:0px !important;
+      }
+      .mobileCenter{
+        text-align:center !important;
+      }
+
+
+  }
+
+  /* Galaxy S5 portrait and landscape */
+  @media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3) {
+
+      .mobileHide {
+        display:none !important;
+      }
+
+      .noMargin {
+        margin-left:0px !important;
+        margin-right:0px !important;
+      }
+      .paddingLeft0{
+        padding-left:0px !important;
+      }
+      .mobileCenter{
+        text-align:center !important;
+      }
+
+
+
+
+  }
+
+
+
+
+
+
+
+  /*Mobile Card Search mag Glass*/
+
+    /*iPhone X in portrait & landscape */
+    @media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
+
+      .mobileSearchBarDisplay{
+        display:inline-block !important;
+      }
+
+        .topMagGlass {
+          visibility:visible;
+        }
+
+
+        .topMagGlass{
+          -webkit-transition: .0s ease-in-out;
+          -moz-transition: .0s ease-in-out;
+          -o-transition: .0s ease-in-out;
+          transition: .0s ease-in-out;
+          transform: scale(1.5, 1.5);
+          -moz-transform: scale(1.5, 1.5);
+          -ms-transform: scale(1.5, 1.5);
+          -webkit-transform: scale(1.5, 1.5);
+          -o-transform: scale(1.5, 1.5);
+        }
+
+    }
+
+
+    /* iPhone 6, 7, & 8 in portrait & landscape */
+    @media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px) {
+
+      .mobileSearchBarDisplay{
+        display:inline-block !important;
+      }
+
+      .topMagGlass {
+        visibility:visible;
+      }
+
+
+      .topMagGlass{
+        -webkit-transition: .0s ease-in-out;
+        -moz-transition: .0s ease-in-out;
+        -o-transition: .0s ease-in-out;
+        transition: .0s ease-in-out;
+        transform: scale(1.5, 1.5);
+        -moz-transform: scale(1.5, 1.5);
+        -ms-transform: scale(1.5, 1.5);
+        -webkit-transform: scale(1.5, 1.5);
+        -o-transform: scale(1.5, 1.5);
+      }
+      }
+
+
+
+    /* iPhone 6, 7, & 8 Plus in portrait & landscape */
+    @media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px) {
+
+      .mobileSearchBarDisplay{
+        display:inline-block !important;
+      }
+
+      .topMagGlass {
+        visibility:visible;
+      }
+
+
+      .topMagGlass{
+        -webkit-transition: .0s ease-in-out;
+        -moz-transition: .0s ease-in-out;
+        -o-transition: .0s ease-in-out;
+        transition: .0s ease-in-out;
+        transform: scale(1.5, 1.5);
+        -moz-transform: scale(1.5, 1.5);
+        -ms-transform: scale(1.5, 1.5);
+        -webkit-transform: scale(1.5, 1.5);
+        -o-transform: scale(1.5, 1.5);
+      }
+
+    }
+
+    /* iPhone 5 & 5S in portrait & landscape */
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 568px) {
+
+      .mobileSearchBarDisplay{
+        display:inline-block !important;
+      }
+
+      .topMagGlass {
+        visibility:visible;
+      }
+
+
+      .topMagGlass{
+        -webkit-transition: .0s ease-in-out;
+        -moz-transition: .0s ease-in-out;
+        -o-transition: .0s ease-in-out;
+        transition: .0s ease-in-out;
+        transform: scale(1.5, 1.5);
+        -moz-transform: scale(1.5, 1.5);
+        -ms-transform: scale(1.5, 1.5);
+        -webkit-transform: scale(1.5, 1.5);
+        -o-transform: scale(1.5, 1.5);
+      }
+
+    }
+
+    /* Galaxy S4 portrait and landscape */
+    @media screen
+      and (device-width: 320px)
+      and (device-height: 640px)
+      and (-webkit-device-pixel-ratio: 3) {
+
+        .mobileSearchBarDisplay{
+          display:inline-block !important;
+        }
+
+        .topMagGlass {
+          visibility:visible;
+        }
+
+
+        .topMagGlass{
+          -webkit-transition: .0s ease-in-out;
+          -moz-transition: .0s ease-in-out;
+          -o-transition: .0s ease-in-out;
+          transition: .0s ease-in-out;
+          transform: scale(1.5, 1.5);
+          -moz-transform: scale(1.5, 1.5);
+          -ms-transform: scale(1.5, 1.5);
+          -webkit-transform: scale(1.5, 1.5);
+          -o-transform: scale(1.5, 1.5);
+        }
+
+    }
+
+    /* Galaxy S5 portrait and landscape */
+    @media screen
+      and (device-width: 360px)
+      and (device-height: 640px)
+      and (-webkit-device-pixel-ratio: 3) {
+
+        .mobileSearchBarDisplay {
+          display:inline-block !important;
+        }
+
+        .topMagGlass {
+          visibility:visible;
+        }
+
+
+        .topMagGlass{
+          -webkit-transition: .0s ease-in-out;
+          -moz-transition: .0s ease-in-out;
+          -o-transition: .0s ease-in-out;
+          transition: .0s ease-in-out;
+          transform: scale(1.5, 1.5);
+          -moz-transform: scale(1.5, 1.5);
+          -ms-transform: scale(1.5, 1.5);
+          -webkit-transform: scale(1.5, 1.5);
+          -o-transform: scale(1.5, 1.5);
+        }
+
+    }
+
+
+
+
+
+
+
+html {
+
+}
+
+body {
+
+}
+
+#mainContent {
+
+}
+
+.header {
+
+}
+
+.navContainer {
+
+}
+
+.footerWrapper {
+
+}
+
+.bottomNav {
+
+}
